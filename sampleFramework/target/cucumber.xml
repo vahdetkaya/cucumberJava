@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="70.542">
+<testcase classname="Admin Page Tests" name="Admin user should be able to filter results with username" time="21.73">
+<system-out><![CDATA[Given the user is on the main page..........................................passed
+And user lands on admin page................................................passed
+When User clicks "Users" from top Nav Bar...................................passed
+Then Admin User should be able to filter users with userName................passed
+]]></system-out>
+</testcase>
+<testcase classname="Admin Page Tests" name="Admin user should be able to filter results with email" time="19.133">
+<system-out><![CDATA[Given the user is on the main page..........................................passed
+And user lands on admin page................................................passed
+When User clicks "Users" from top Nav Bar...................................passed
+Then Admin User should be able to filter users with email...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Admin Page Tests" name="Admin user should be able to create a new user" time="28.836">
+<system-out><![CDATA[Given the user is on the main page..........................................passed
+And user lands on admin page................................................passed
+When User clicks "Users" from top Nav Bar...................................passed
+Then Admin User should be able to create new user at users page.............passed
+]]></system-out>
+</testcase>
+</testsuite>

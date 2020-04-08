@@ -1,0 +1,289 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-07T02:25:16.448Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15511000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sampleFramework.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Admin user should be able to filter results with username",
+        "description": "",
+        "id": "admin-page-tests;admin-user-should-be-able-to-filter-results-with-username",
+        "after": [
+          {
+            "result": {
+              "duration": 1180000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sampleFramework.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1653000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "com.sampleFramework.step_definitions.MainPageStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on admin page",
+            "match": {
+              "location": "com.sampleFramework.step_definitions.adminPageStepDefs.user_lands_on_admin_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1235000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks \"Users\" from top Nav Bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Users",
+                  "offset": 13
+                }
+              ],
+              "location": "com.sampleFramework.step_definitions.adminPageStepDefs.user_clicks_from_top_Nav_Bar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1654000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin User should be able to filter users with userName",
+            "match": {
+              "location": "com.sampleFramework.step_definitions.adminPageStepDefs.admin_User_should_be_able_to_filter_users_with_userName()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-07T02:25:38.196Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12874000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sampleFramework.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Admin user should be able to filter results with email",
+        "description": "",
+        "id": "admin-page-tests;admin-user-should-be-able-to-filter-results-with-email",
+        "after": [
+          {
+            "result": {
+              "duration": 1818000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sampleFramework.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1328000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "com.sampleFramework.step_definitions.MainPageStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user lands on admin page",
+            "match": {
+              "location": "com.sampleFramework.step_definitions.adminPageStepDefs.user_lands_on_admin_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1085000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks \"Users\" from top Nav Bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Users",
+                  "offset": 13
+                }
+              ],
+              "location": "com.sampleFramework.step_definitions.adminPageStepDefs.user_clicks_from_top_Nav_Bar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1890000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Admin User should be able to filter users with email",
+            "match": {
+              "location": "com.sampleFramework.step_definitions.adminPageStepDefs.admin_User_should_be_able_to_filter_users_with_email()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-07T02:25:57.334Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13191000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sampleFramework.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Admin user should be able to create a new user",
+        "description": "",
+        "id": "admin-page-tests;admin-user-should-be-able-to-create-a-new-user",
+        "after": [
+          {
+            "result": {
+              "duration": 2345000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sampleFramework.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1678000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "com.sampleFramework.step_definitions.MainPageStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user lands on admin page",
+            "match": {
+              "location": "com.sampleFramework.step_definitions.adminPageStepDefs.user_lands_on_admin_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks \"Users\" from top Nav Bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Users",
+                  "offset": 13
+                }
+              ],
+              "location": "com.sampleFramework.step_definitions.adminPageStepDefs.user_clicks_from_top_Nav_Bar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10603000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Admin User should be able to create new user at users page",
+            "match": {
+              "location": "com.sampleFramework.step_definitions.adminPageStepDefs.admin_User_should_be_able_to_create_new_user_at_users_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Admin Page Tests",
+    "description": "",
+    "id": "admin-page-tests",
+    "keyword": "Feature",
+    "uri": "classpath:features/adminPage.feature",
+    "tags": []
+  }
+]
